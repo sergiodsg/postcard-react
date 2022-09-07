@@ -1,4 +1,5 @@
 import React from "react";
+import PostcardHeader from "./PostcardHeader.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,13 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div class="postcard">
-			<div class="postcard-header">
-				<h1>My Postcard</h1>
-				<img
-					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
-					alt="4Geeks logo"
-				/>
-			</div>
+			<PostcardHeader/>
 			<div class="postcard-body">
 				<div class="body-left">
 					<p>Look how aresome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
