@@ -10,3 +10,55 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 450px;
+	height: 350px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 75px;
+	height: 75px;
+	padding-right: 10px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: auto;
+	font-family: "Courier New", Courier, monospace;
+	padding-left: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: auto;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid gray;
+	font-size: medium;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+	font-size: medium;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gainsboro;
+	padding: 5px 2px 5px 2px;
+	font-size: medium;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
